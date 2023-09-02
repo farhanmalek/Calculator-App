@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 70vh;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    border: 1px solid green;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+
+.numbers {
+    width: calc(100%/4);
+    height: calc(100%/4);
+}
+
